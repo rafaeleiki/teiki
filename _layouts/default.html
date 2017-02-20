@@ -11,7 +11,7 @@
   </head>
   <body>
     <section class="page-header">
-      <a href="/">
+      <a href="{{ site.baseurl }}/">
         <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       </a>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
@@ -31,7 +31,7 @@
       <footer class="site-footer">
         <ul class="no-padding">
           {% for tag in site.tags %}
-          <li class="tag"><a href="/tags/{{ tag.slug }}">{{ tag.name }}</a></li>
+          <li class="tag"><a href="{{ site.baseurl }}/tags/{{ tag.slug }}">{{ tag.name }}</a></li>
           {% endfor %}
         </ul>
         {% if site.github.is_project_page %}
