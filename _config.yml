@@ -10,13 +10,13 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/teiki" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  rafaeleiki
+google_analytics: UA-92319187-1
 
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
 gems:
   - jekyll-feed
-  - octopress-debugger
 exclude:
   - Gemfile
   - Gemfile.lock
