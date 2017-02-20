@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-metadata
+
+# Idea
+.idea
+
+# Run script, which contains sensitive token
+/run.sh
