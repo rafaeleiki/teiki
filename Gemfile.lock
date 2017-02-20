@@ -197,6 +197,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
+  jekyll-sass-converter
   jekyll-theme-cayman
   tzinfo-data
 
